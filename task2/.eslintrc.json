@@ -1,0 +1,22 @@
+{
+  "env": {
+    "node": true,
+    "es2021": true
+  },
+  "plugins": ["prettier", "simple-import-sort"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "rules": {
+    "prettier/prettier": "error",
+
+    "simple-import-sort/imports": "error",
+    "sort-imports": "off",
+    "import/order": "off"
+  }
+}

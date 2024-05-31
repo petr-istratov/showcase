@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.065" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-05-31T17:53:19" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="stock_trades_api_hard" timestamp="2024-05-31T17:53:19" tests="1" file="/home/petristratov/showcase/task2/test/index.spec.js" time="0.063" failures="0">
+    <testcase name="stock_trades_api_hard should create a new trade of buy type" time="0.033" classname="should create a new trade of buy type">
+    </testcase>
+  </testsuite>
+</testsuites>
