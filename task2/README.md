@@ -47,7 +47,7 @@ You are expected to choose the ORM you want to use and initialize the connection
 
 
 ## Environment 
-- Node Version: 14(LTS)
+- Node Version: 18(LTS)
 - Default Port: 8000
 
 **Read Only Files**
