@@ -1,8 +1,6 @@
-import { Sequelize } from 'sequelize';
-
 import TradesModel from '../models/trades';
+import sequelize from './database';
 
-const sequelize = new Sequelize('sqlite::memory:');
 const Trades = TradesModel(sequelize);
 
 const connect = () =>

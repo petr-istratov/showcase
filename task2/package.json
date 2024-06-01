@@ -15,7 +15,7 @@
     "lint": "eslint .",
     "prestart": "npm install",
     "pretest": "npm install",
-    "test": "cross-env PORT=8001 ./node_modules/.bin/mocha --require tsx --reporter mocha-multi-reporters --reporter-options configFile=config.json --exit"
+    "test": "cross-env NODE_ENV=test PORT=8001 ./node_modules/.bin/mocha --require tsx --reporter mocha-multi-reporters --reporter-options configFile=config.json --exit"
   },
   "devDependencies": {
     "bluebird": "^3.7.2",
@@ -39,6 +39,7 @@
     "esm": "^3.2.25",
     "express": "^4.19.2",
     "express-http-context": "^1.2.4",
+    "express-validator": "^7.1.0",
     "log4js": "^6.9.1",
     "sequelize": "^6.37.3",
     "sqlite3": "^5.1.7"
