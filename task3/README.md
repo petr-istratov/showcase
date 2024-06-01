@@ -3,7 +3,7 @@
     - Custom Domains: Implement custom domain support, allowing gaming companies to associate their domain (e.g., cool-games.com, luck-games.co.uk) with their gPlatform instance.
 
     - Domain Mapping: When a gaming company signs up, they provide their domain. You map this domain to their specific gPlatform instance.
-R
+
     - Routing and Hosting: Configure your backend cluster (which serves all companies) to route requests based on the incoming domain. Each request should be directed to the appropriate gPlatform instance associated with the requested domain.
 
 2. Modifying the Users Table:
